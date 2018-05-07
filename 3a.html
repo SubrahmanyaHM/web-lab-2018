@@ -1,0 +1,41 @@
+<? xhtml version="1.1" encoding="utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> 3rd Program</title>
+    <script type="text/javascript">
+    function findPosition(str){
+        var pos=-1;
+        for(var i =0; i<str.length;i++)
+        {
+                switch(str[i]){
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+                               pos = i;
+                               break;
+                    default:
+                                break;
+               }
+               if(pos != -1)
+                break;
+        }
+        if(pos == -1)
+            document.write("NO vowel found");
+        else
+            document.write("Leftmost vowel found at :"+pos);
+    }                                                     
+   </script>
+    
+</head>
+
+<body>
+    <form>
+    <label>Enter String:
+    <input type="text" name="str"/></label>
+    <input type="submit" onclick="findPosition(str.value)"/>
+    </form>
+</body>
+</html>    
+    

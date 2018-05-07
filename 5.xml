@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="5.xsl" ?>
+<?xml-stylesheet type="text/css" href="5.css" ?>
+   
+<ad>
+    <student>
+        <usn>4NI15IS061</usn>
+        <name>Fahi1</name>
+        <n_of_c>NIE1</n_of_c>
+        <branch>ISE1</branch>
+        <yoj>20191</yoj>
+        <email>drax@zebs1</email>
+    </student>    
+    <student>
+        <usn>4NI15IS062</usn>
+        <name>Fahi2</name>
+        <n_of_c>NIE2</n_of_c>
+        <branch>ISE2</branch>
+        <yoj>20192</yoj>
+        <email>drax@zebs2</email>
+    </student> 
+    <student>
+        <usn>4NI15IS063</usn>
+        <name>Fahi3</name>
+        <n_of_c>NIE3</n_of_c>
+        <branch>ISE3</branch>
+        <yoj>20193</yoj>
+        <email>drax@zebs3</email>
+    </student> 
+</ad>
+    

@@ -1,0 +1,26 @@
+<? xhtml version="1.1" encoding="utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> 2nd Program</title>
+    <script type="text/javascript">
+    var a=parseInt(prompt("Enter a no.?"));
+    var fib1 = 0, fib2 = 1;
+    var fib3;
+    document.write("Fibonacci Series<br>");
+    document.write(fib1+"<br>"+fib2+"<br>");
+    for(var i = 2 ;i<a;i++)
+    {
+        fib3 = fib1 + fib2;
+        document.write(fib3+"<br>");
+        fib1 = fib2;
+        fib2 = fib3;
+    }
+    </script>
+    
+</head>
+
+<body>
+    
+</body>
+</html>    
+    
