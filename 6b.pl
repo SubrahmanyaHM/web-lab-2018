@@ -13,7 +13,8 @@ findbig($a,$b,$c);
 
 
 sub findbig{
-$big = 0;
+@arr= @_;
+$big=$arr[0];
 foreach $x (@_){
     if($big<$x)
     {
