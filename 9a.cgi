@@ -20,7 +20,7 @@ else
     $greet = "Good night";
 }
 
-open(check,">w -h $webmaster|");
+open(check,'w -h -s $webmaster|');
 if(<check>=~/"$webmaster"/)
 {
     print "$webmaster currently logged in<br>";
